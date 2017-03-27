@@ -1,0 +1,130 @@
+{
+  
+  "questions": [
+    {
+      "question": "Why would a developer use Test.starttest() and test.stoptest()?",
+      "answers": [
+        {
+          "point": 0,
+          "label": "To avoid Apex code coverage requirements for the code between these lines.",
+	  "checked": "true"
+        },
+        {
+          "point": 0,
+          "label": "To start and stop anonymous block execution when executing anonymous Apex code.",
+	  "checked": ""
+        },
+        {
+          "point": 0,
+          "label": "To indicate test code so that it does not impact apex line count governor limits.",
+	  "checked": ""
+        },
+        {
+          "point": 1,
+          "label": "To create an additional set of governor limits during the execution of a single test class.",
+	  "checked": ""
+        }
+      ]
+    },
+    {
+      "question": "What would a developer do to update a picklist field on related opportunity records when a modification to the associated account record is detected?",
+      "answers": [
+        {
+          "point": 1,
+          "label": "create a process with process builder.",
+	  "checked": "true"
+        },
+        {
+          "point": 0,
+          "label": "create a workflow rule with a field update.",
+	  "checked": ""
+        },
+        {
+          "point": 0,
+          "label": "create a lightning component.",
+	  "checked": ""
+        },
+        {
+          "point": 0,
+          "label": "create a visualforce page.",
+	  "checked": ""
+        }
+      ]
+    },
+{
+      "question": "What is the preferred way to reference web content--such as images, stylesheets, javascript, other libraries-- that is used in visualforce pages?",
+      "answers": [
+        {
+          "point": 0,
+          "label": "By accessing the content from chatter files.",
+	  "checked": "true"
+        },
+        {
+          "point": 0,
+          "label": "By uploading the content in the documents tab.",
+	  "checked": ""
+        },
+        {
+          "point": 0,
+          "label": "By accessing the content from a third-party CDN.",
+	  "checked": ""
+        },
+        {
+          "point": 1,
+          "label": "By uploading the content as a static Resource.",
+	  "checked": ""
+        }
+      ]
+    },
+{
+      "question": "In which order does salesforce execute events upon saving a record?",
+      "answers": [
+        {
+          "point": 0,
+          "label": "before Trigger; validation Rules; After Triggers; Assignment Rules; Workflow Rules; Commit",
+	  "checked": "true"
+        },
+        {
+          "point": 0,
+          "label": "Validation Rules; Before Triggers; After Triggers; Workflow Rules; Assignment Rules; commit",
+	  "checked": ""
+        },
+        {
+          "point": 0,
+          "label": "before Triggers; Validation Rules; After Triggers; Workflow Rules; assignment Rules; commit",
+	  "checked": ""
+        },
+        {
+          "point": 1,
+          "label": "Validation Rules; Before Triggers; After Triggers; assignment Rules; Workflow Rules; Commit",
+	  "checked": "" 
+        }
+      ]
+    },
+{
+      "question": "A developer wants to create a custom object to track customer invoices. how should invoices and accounts be related to ensure that all invoices are visible to everyone with access to an Account?",
+      "answers": [
+        {
+          "point": 0,
+          "label": "The Account should have a lookup relationship to the invoice.",
+	  "checked": "true"
+        },
+        {
+          "point": 1,
+          "label": "The Invoice should have a Master-detail relationship to the Account.",
+	  "checked": ""
+        },
+        {
+          "point": 0,
+          "label": "The account ahould have a Master- detail relationship to the Invoice.",
+	  "checked": ""
+        },
+        {
+          "point": 0,
+          "label": "The Invoice should have a lookup relationship to the account.",
+	  "checked": ""
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+<style>
+
+body {
+font-family: Open Sans;
+}
+
+
+html {
+  color: #030303;
+  font: caption;
+  padding-bottom: 2em;
+}
+
+h2 {
+color:#3CB371;
+margin-left:5px;
+}
+
+
+p {
+color:white;
+margin-left:5px;
+}
+
+
+button {
+
+	position: relative;
+	color:white;
+        float:right;
+	text-align: center;
+	cursor: pointer;
+	background-color: #3CB371;
+	width:80px;
+	margin-top:15px;
+	padding-top:5px;
+	margin:right:5px
+	padding-bottom:5px;
+	border-radius: 25px;
+}
+
+
+
+div {
+    	width:95%;
+    	margin-top:10px;
+	padding: 5px 5px 10px 10px;
+	color: white;
+	background-color: #191970;
+}
+
+
+
+</style>
